@@ -1,0 +1,336 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-color :rgb(34, 33, 33);
+    color:white;
+   
+}
+
+.nav_bar
+{
+    
+    position: sticky;
+    background-color :rgb(34, 33, 33);
+    color:white;
+   display: flex;
+   justify-content: space-evenly;
+   
+   
+}
+
+.nav_bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    padding: 0px 15px;
+    
+}
+.nav_bar h2{
+    position: absolute;
+    left:1%;
+    
+    cursor: pointer;
+    margin: 5px;
+}
+.nav_bar ul li:hover
+{
+    
+    text-decoration: underline;
+
+}
+.nav_bar ul li{
+    margin: 5px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.nav_bar button
+{  background-color:white;
+    outline: none;
+    border:none;
+    border-radius: 3px;
+    padding: 5px 5px;
+    cursor: pointer;
+    margin: 1px;
+    color:black;
+  
+}
+.nav_bar input
+{  background-color:white;
+    outline: none;
+    border:none;
+    border-radius: 3px;
+    padding: 5px 5px;
+    cursor: pointer;
+    margin: 1px;
+    color:black;
+  
+}
+.container
+{
+ 
+  background-color: black;
+  display: flex;
+  height: 50%;
+  width:100%;
+}
+.class2
+{
+    height: 100%;
+    width:80%;
+    background-image: url(96516181_136422374645292_4272833959429144576_o.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.class1
+{ position: relative;
+    height: 100%;
+    width:20%;
+   
+    padding: 15px 15px;
+   background-image: url(OIP\ \(2\).jpg);
+    color:white;
+  
+}
+.class1_1
+{
+    position: absolute;
+    /*margin: 15px 15px; */
+    padding: 0px 30px;
+    top:60%;
+      
+}
+p{
+   
+    font-size: 20px;
+    text-align: center;
+}
+.ul2
+{
+    position: absolute;
+   left:75%;
+}
+.nav_bar button:hover
+{
+    background-color:black;
+    color:white;
+}
+.nav_bar input:hover
+{
+    background-color:black;
+    color:white;
+}
+h1
+{
+    margin: 5px;
+    text-align: center;
+}
+.class1_1 button:hover
+{
+    background-color:black;
+    color:white;
+}
+.class1_1 button
+{  background-color:white;
+    outline: none;
+    border:none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin:5px 5px;
+    cursor: pointer;
+   
+    color:black;
+  
+}
+.class1_2
+{
+   
+    position: absolute;
+    margin:30px 0px;
+}
+.class1_3
+{
+    position: absolute;
+    left: 5%;
+    top:75%;
+    width:90%;
+}
+#join
+{
+  
+    width:100%;
+    background-color:white;
+    outline: none;
+    border:none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin:5px 5px;
+    cursor: pointer;
+   
+    color:black;
+}
+#join:hover
+{
+    background-color:black;
+    color:white;
+}
+.class2_1
+{
+    position: absolute;
+    height: 100%;
+    width:50%;
+    background-image: url(91325793_122096912744505_8870948684360056832_o.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.cont2
+{
+    position: relative;
+    width:60%;
+    margin:30px;
+    left:20%;
+    height: 80%;
+    padding: 15px 15px;
+    display: flex;
+}
+.class2_2
+{
+    position: absolute;
+    left:60%;
+    top:30%;
+    height: 100%;
+    width:50%;
+    text-align: center;
+}
+.class3_2
+{
+    position: absolute;
+    height: 100%;
+    width:50%;
+    left:60%;
+    background-image: url(ram.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.cont3
+{
+    position: relative;
+    width:60%;
+    margin:30px;
+    left:20%;
+    height: 80%;
+    padding: 15px 15px;
+    display: flex;
+}
+.class3_1
+{
+    position: absolute;
+    top:30%;
+    height: 100%;
+    width:50%;
+    text-align: center;
+}
+.class4_1
+{
+    position: absolute;
+    height: 100%;
+    width:50%;
+    background-image: url(oo.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.cont4
+{
+    position: relative;
+    width:60%;
+    margin:30px;
+    left:20%;
+    height: 80%;
+    padding: 15px 15px;
+    display: flex;
+}
+.class4_2
+{
+    position: absolute;
+    left:60%;
+    top:30%;
+    height: 100%;
+    width:50%;
+    text-align: center;
+}
+.cont5
+{
+   
+ display: flex;
+  width:100%;
+  margin: 120px 0px;
+  height: 50%;
+}
+.class5_1
+{
+    height: 100%;
+    width:60%;
+    background-image: url(Screenshot\ \(829\).png);
+    background-position: center;
+    background-size: cover;
+
+}
+.class5_2
+{
+    width:40%;
+    height: 100%;
+    background-color: rgba(180, 178, 178, 0.2);
+}
+.class5_2 p{
+    position: relative;
+    top:30%;
+    font-size: 30px;
+    text-align: center;
+}
+.fa {
+   
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+   
+  }
+  
+  .fa:hover {
+     opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-soundcloud {
+    background: #ff6600;
+    color: white;
+  }
+  .cont6
+{
+    position: relative;
+    left:80%;
+   
+}
+
+
